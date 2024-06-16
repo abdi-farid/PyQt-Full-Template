@@ -1,0 +1,264 @@
+{
+  "ShowLogs": true,
+  "QMainWindow": [
+    {
+      "tittle": "GESs ANALYTICS",
+      "icon": ":/feather/ffffff/feather/activity.png",
+      "frameless": true,
+      "transluscentBg": true,
+      "sizeGrip": "sizeGrip",
+      "navigation": [
+        {
+          "minimize": "minimize_window_button",
+          "close": "close_window_button",
+          "restore": [
+            {
+              "buttonName": "restore_window_button",
+              "normalIcon": ":/feather/ffffff/feather/square.png",
+              "maximizedIcon": ":/feather/ffffff/feather/copy.png"
+            }
+          ],
+          "moveWindow": "headerContainer",
+          "tittleBar": "headerContainer"
+        }
+      ]
+    }
+  ],
+  "QCustomSlideMenu": [
+    {
+      "name": "leftMenuContainer",
+      "defaultSize": [
+        {
+          "width": 55,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 55,
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 150,
+          "height": "parent"
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "menuBtn",
+          "icons": [
+            {
+              "whenMenuIsCollapsed": ":/feather/ffffff/feather/align-justify.png",
+              "whenMenuIsExpanded": ":/feather/ffffff/feather/chevron-left.png"
+            }
+          ]
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 500,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "centerMenuContainer",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": "parent"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": "parent"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 150,
+          "height": "parent"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 500,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "rightMenuContainer",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": "auto"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": "auto"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 200,
+          "height": "auto"
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 500,
+          "animationEasingCurve": "Linear"
+        }
+      ]
+    },
+    {
+      "name": "popupNotificationContainer",
+      "defaultSize": [
+        {
+          "width": 0,
+          "height": "auto"
+        }
+      ],
+      "collapsedSize": [
+        {
+          "width": 0,
+          "height": "auto"
+        }
+      ],
+      "expandedSize": [
+        {
+          "width": 500,
+          "height": 100
+        }
+      ],
+      "menuTransitionAnimation": [
+        {
+          "animationDuration": 500,
+          "animationEasingCurve": "Linear"
+        }
+      ],
+      "floatPosition": [
+        {
+          "relativeTo": "centralwidget",
+          "position": "top-right",
+          "shadow": [
+            {
+              "color": "#000",
+              "blurRadius": 20,
+              "xOffset": 5,
+              "yOffset": 5
+            }
+          ]
+        }
+      ],
+      "toggleButton": [
+        {
+          "buttonName": "notificationBtn"
+        }
+      ]
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#000000",
+              "Text-color": "#FFFFFF",
+              "Accent-color": "#FFFF00",
+              "Icons-color": "#ffffff",
+              "Theme-name": "Default-theme",
+              "Default-Theme": true
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "GESs ANALYTICS",
+        "ApplicationName": "bngfm",
+        "OrginizationDormain": "bngfm.com"
+      }
+    }
+  ],
+  "QCustomQStackedWidget": [
+    {
+      "name": "mainPages",
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "bloc1Btn": "bloc1Page",
+              "bloc2Btn": "bloc2Page",
+              "bloc3Btn": "bloc3Page",
+              "bloc4Btn": "bloc4Page"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "centerMenuPages",
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "settingsBtn": "settingsPage",
+              "infoBtn": "infoPage",
+              "helpBtn": "helpPage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rightMenuPages",
+      "navigation": [
+        {
+          "navigationButtons": [
+            {
+              "moreMenuBtn": "moreMenuPage",
+              "profileMenuBtn": "profilePage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "QPushButtonGroup": [
+    {
+      "Buttons": [
+        "bloc1Btn",
+        "bloc2Btn",
+        "bloc3Btn",
+        "bloc4Btn"
+      ],
+      "Style": [
+        {
+          "Active": "background-color:#1f232a;",
+          "NotActive": ""
+        }
+      ]
+    },
+    {
+      "Buttons": [
+        "settingsBtn",
+        "infoBtn",
+        "helpBtn"
+      ],
+      "Style": [
+        {
+          "Active": "background-color:#2c313c;",
+          "NotActive": ""
+        }
+      ]
+    }
+  ],
+  "QtBinding": "PyQt6"
+}
